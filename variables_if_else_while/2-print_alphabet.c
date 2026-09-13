@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints the last digit of a random number and checks its value
+ * main - Prints the alphabet in lowercase using putchar
  *
  * Return: Always 0 (Success)
  */
@@ -9,8 +9,10 @@ int main(void)
 {
 	char ch;
 
-    for (ch = 'a'; ch <= 'z'; ch++)
-            putchar(ch);
-    putchar('\n');
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+
+	putchar('\n');
+
 	return (0);
 }
