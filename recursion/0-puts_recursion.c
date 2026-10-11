@@ -12,7 +12,7 @@ if (*s == '\0')
 write(1, "\n", 1);
 return;
 }
-/* Print the current character */  
+/* Print the current character */
 write(1, s, 1);
 /* Recursive call with the next character pointer */
 _puts_recursion(s + 1);
