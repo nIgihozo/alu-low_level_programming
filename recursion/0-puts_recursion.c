@@ -10,9 +10,8 @@ void _puts_recursion(char *s)
 if (*s == '\0')
 {
 write(1, "\n", 1);
-    return;
+return;
 }
-
 /* Print the current character */  
 write(1, s, 1);
 /* Recursive call with the next character pointer */
