@@ -16,7 +16,13 @@ int _strlen(char *s)
 	return (i);
 }
 
-
+/**
+ * _strcpy - Copies the string pointed to by src
+ * @dest: Destination buffer
+ * @src: Source string to copy
+ *
+ * Return: Pointer to dest
+ */
 char *_strcpy(char *dest, char *src)
 {
 	int i;
@@ -27,6 +33,14 @@ char *_strcpy(char *dest, char *src)
 	return (dest);
 }
 
+/**
+ * new_dog - Creates a new dog
+ * @name: Name of the dog
+ * @age: Age of the dog
+ * @owner: Owner of the dog
+ *
+ * Return: Pointer to the new dog struct, or NULL if it fails
+ */
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *d;
